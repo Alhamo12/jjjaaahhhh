@@ -5,6 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from config import (
     ASSISTANT_NAME,
+    ALIVE_NAME,
     BOT_NAME,
     BOT_USERNAME,
     GROUP_SUPPORT,
@@ -47,7 +48,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "{ALIVE_NAME}", url="https://t.me/{OWNER_NAME}"
+                        ALIVE_NAME, url="https://t.me/{OWNER_NAME}"
                     )
                 ],
             ]
