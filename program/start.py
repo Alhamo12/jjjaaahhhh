@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        ALIVE_NAME, url="https://t.me/{OWNER_NAME}")
+                        ALIVE_NAME, url="https://t.me/{OWNER_NAME}"),
                 ],
             ]
         ),
