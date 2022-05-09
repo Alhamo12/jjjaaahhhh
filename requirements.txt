@@ -2,7 +2,7 @@ TgCrypto
 asyncio
 ffmpeg-python
 py-tgcalls
-pyrogram==1.4.9
+pyrogram==1.4.16
 youtube-search-python==1.4.9
 youtube-search
 httpx==0.13.3
@@ -18,4 +18,4 @@ yt-dlp
 psutil
 future
 wget
-pyrogram==1.4.9
+pyrogram==1.4.16

@@ -1,16 +1,16 @@
 {
-    "name": "VamBIR musiccc",
+    "name": "EITHON musiccc",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/ba8a0e436f12f8d037ca1.jpg",
+    "logo": "https://telegra.ph/file/aa0ad3671257edd1ddace.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/XxvprxX",
+    "website": "https://t.me/EITHON",
     "repository": "https://github.com/VamBIR/free",
-    "success_url": "https://t.me/XxlllllllllllllllllllllllllllxX",
+    "success_url": "https://t.me/EITHON",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "XxllllllllllllllllllllllllllxX"
+            "value": "eithonsupport"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "XxvprxX"
+            "value": "EITHON"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "XxlllllllllllllllllllllllllllxX"
+            "value": "Mohmad990754"
         },
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمـبــيرـ͢）⛧"
+            "value": "ᯓ˹ ايثون ميوزك 🎻 𝐄𝐈𝐓𝐇𝐎𝐍 𝐌𝐔𝐒𝐈𝐂"
         }
     },
     "addons": [],
