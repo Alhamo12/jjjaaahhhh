@@ -93,7 +93,7 @@ async def start_(client: Client, message: Message):
 
 
 @Client.on_message(
-    command(["alive", "لسورس", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
+    command(["alive", "السورس", f"alive@{BOT_USERNAME}"]) & filters.group & ~filters.edited
 )
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
@@ -141,7 +141,7 @@ async def ping_pong(client: Client, message: Message):
     await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
-@Client.on_message(command(["uptime","لوقت", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(command(["uptime","الوقت", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
 async def get_uptime(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()

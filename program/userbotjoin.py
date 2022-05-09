@@ -43,7 +43,7 @@ async def join_group(client, message):
     )
 
 
-@Client.on_message(command(["userbotleave","ادر",
+@Client.on_message(command(["userbotleave","غادر",
                             f"leave@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def leave_one(client, message):
@@ -58,7 +58,7 @@ async def leave_one(client, message):
         return
 
 
-@Client.on_message(command(["leaveall","ادرالجميع", f"leaveall@{BOT_USERNAME}"]))
+@Client.on_message(command(["leaveall","غادرالجميع", f"leaveall@{BOT_USERNAME}"]))
 @sudo_users_only
 async def leave_all(client, message):
     if message.from_user.id not in SUDO_USERS:
