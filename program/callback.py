@@ -72,7 +72,7 @@ async def cbguides(_, query: CallbackQuery):
 
  💡 إذا كانت لديك أسئلة  حول هذا البوت ، فيمكنك إخبارنا منن خلال قروب الدعم الخاصة بي هنا ↤ @{GROUP_SUPPORT}
 
- ⚡ 🌀قناة البوت @{UPDATES_CHANNEL}
+ ⚡ 🌀قناة البوت @EITHON1
 __""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 رجوع", callback_data="cbstart")]]
@@ -87,7 +87,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **⇦قم بالضغط علي الزر الذي تريده لمعرفه الاوامر لكل فئه منهم !**
 
-⚡ __قناة البوت»  @EITHON  __""",
+⚡ __قناة البوت»  @EITHON1  __""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
