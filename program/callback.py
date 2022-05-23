@@ -43,7 +43,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/EITHON1"
                     ),
                 ],
                 [
@@ -87,7 +87,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **⇦قم بالضغط علي الزر الذي تريده لمعرفه الاوامر لكل فئه منهم !**
 
-⚡ __قناة البوت»  @{UPDATES_CHANNEL}  __""",
+⚡ __قناة البوت»  @EITHON  __""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
